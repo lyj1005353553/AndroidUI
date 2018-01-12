@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cm.androidui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_toast"
+            style="@style/TvItemStyle"
+            android:text="@string/about_toast" />
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            style="@style/TvItemStyle"
+            android:text="@string/about_dialog" />
+
+
+        <TextView
+            android:id="@+id/tv_marqueen"
+            style="@style/TvItemStyle"
+            android:text="@string/about_pmd" />
+
+        <TextView
+            android:id="@+id/tv_supports"
+            style="@style/TvItemStyle"
+            android:text="@string/about_supports" />
+
+
+        <TextView
+            android:id="@+id/tv_about_shrink"
+            style="@style/TvItemStyle"
+            android:text="@string/about_shrink" />
+
+
+        <TextView
+            android:id="@+id/tv_credit"
+            style="@style/TvItemStyle"
+            android:text="@string/about_credit" />
+
+
+        <TextView
+            android:id="@+id/tv_loading"
+            style="@style/TvItemStyle"
+            android:text="@string/about_loading" />
+
+        <TextView
+            android:id="@+id/tv_indicator"
+            style="@style/TvItemStyle"
+            android:text="@string/about_indicator" />
+
+        <TextView
+            android:id="@+id/tv_checkbox"
+            style="@style/TvItemStyle"
+            android:text="@string/about_checkbox" />
+
+        <TextView
+            android:id="@+id/tv_selfview"
+            style="@style/TvItemStyle"
+            android:text="自定义界面" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_yk"-->
+            <!--style="@style/TvItemStyle"-->
+            <!--android:text="新增组合遥控" />-->
+    </LinearLayout>
+
+</ScrollView>

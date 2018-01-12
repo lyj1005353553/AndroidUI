@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.ohterview.view.CheckBoxSample
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            app:color_background="#FF3F51B5"
+            app:color_border="#FF3F51B5"
+            app:size="32dp" />
+
+        <com.ohterview.view.CheckBoxSample
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            app:color_background="#FFF44336"
+            app:color_border="#FFFFFFFF"
+            app:size="32dp" />
+
+        <com.ohterview.view.CheckBoxSample
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            app:color_background="#FF4CAF50"
+            app:color_border="#FF4CAF50"
+            app:size="32dp" />
+
+        <com.ohterview.view.CheckBoxSample
+            android:id="@+id/check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            app:color_background="#FF00BCD4"
+            app:color_border="#FFFFFFFF"
+            app:size="32dp" />
+
+        <TextView
+            android:id="@+id/tv_yk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginLeft="24dp"
+            android:background="@color/grey_blue"
+            android:text="新增组合遥控" />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/cbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_top"
+        android:layout_margin="15dp"
+        android:button="@drawable/checkbox_selector"
+        android:padding="5dp"
+        android:text="选中更改状态的checkBox" />
+
+    <CheckBox
+        android:id="@+id/cbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbox1"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:text="系统默认的checkBox"
+        android:textSize="15dp"
+        android:theme="@style/My_CheckBox" />
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cbox2"
+        android:scrollbars="none" />
+
+</RelativeLayout>

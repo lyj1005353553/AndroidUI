@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidUI.iml" filepath="$PROJECT_DIR$/AndroidUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baner/baner.iml" filepath="$PROJECT_DIR$/baner/baner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hongbao/hongbao.iml" filepath="$PROJECT_DIR$/hongbao/hongbao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadingview/loadingview.iml" filepath="$PROJECT_DIR$/loadingview/loadingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/magicindicator/magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marqueenview/marqueenview.iml" filepath="$PROJECT_DIR$/marqueenview/marqueenview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ohterview/ohterview.iml" filepath="$PROJECT_DIR$/ohterview/ohterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sweetalertdialog/sweetalertdialog.iml" filepath="$PROJECT_DIR$/sweetalertdialog/sweetalertdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toasts/toasts.iml" filepath="$PROJECT_DIR$/toasts/toasts.iml" />
+    </modules>
+  </component>
+</project>

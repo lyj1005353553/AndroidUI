@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--虎扑体育打赏view-->
+    <declare-styleable name="GratuityView">
+        <attr name="baseTextSize" format="integer|reference" />
+        <attr name="baseTextColor" format="integer|color|reference" />
+        <attr name="basegroundColor" format="integer|color|reference" />
+        <attr name="childTextSize" format="integer|reference" />
+        <attr name="childTextColor" format="integer|color|reference" />
+        <attr name="childgroundColor" format="integer|color|reference" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="animationBackground" format="integer|color|reference" />
+        <attr name="childCount" format="integer" />
+        <attr name="autoCollapse" format="boolean" />
+        <attr name="collapseDelay" format="integer" />
+    </declare-styleable>
+
+    <!--仿支付宝查看信用-->
+    <declare-styleable name="RoundIndicatorView">
+        <!--最大数值-->
+        <attr name="maxNum" format="integer" />
+        <!--圆盘起始角度-->
+        <attr name="startAngle" format="integer" />
+        <!--圆盘扫过的角度-->
+        <attr name="sweepAngle" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckBox_Sample">
+        <attr name="size" format="dimension" />
+        <attr name="color_border" format="color" />
+        <attr name="color_background" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AnimateCheckBox">
+        <attr name="unCheckColor" format="color"/>
+        <attr name="checkedColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="animDuration" format="integer"/>
+    </declare-styleable>
+</resources>

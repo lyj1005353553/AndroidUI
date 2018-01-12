@@ -1,0 +1,9 @@
+include ':app', ':hongbao'
+include ':toasts'
+include ':sweetalertdialog' //动画弹框
+include ':marqueenview' //滚动公告
+include ':ohterview' //其他view（点赞样式）
+include ':loadingview' //加载框
+include ':magicindicator'//viewpager滑动器
+include ':banner', ':baner'
+//include ':toasty', ':toastapp'

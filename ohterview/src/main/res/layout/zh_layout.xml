@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_zh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/TvSize15_Style"
+        android:text="组合动作"/>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_alignTop="@+id/tv1"
+        android:layout_alignBottom="@+id/tv1"
+        android:padding="5dp"
+        android:text="(不超过8个)"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/dp14"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/TvSize15_Style"
+        android:layout_below="@+id/tv1"
+        android:textColor="@color/grey"/>
+
+    <View
+        android:id="@+id/line1"
+        style="@style/H_Line"
+        android:layout_below="@+id/tv_content"/>
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_close"
+            style="@style/Tv_Zh_Style"
+            android:text="关锁"/>
+
+
+        <TextView
+            android:id="@+id/tv_open"
+            style="@style/Tv_Zh_Style"
+            android:text="开锁" />
+
+
+        <TextView
+            android:id="@+id/tv_minus"
+            style="@style/Tv_Zh_Style"
+            android:text="&lt;--" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        style="@style/H_Line"
+        android:layout_below="@+id/ll_top"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_ca_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_single2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbox_close"
+            style="@style/My_CheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="关锁" />
+
+        <RadioButton
+            android:id="@+id/rbox_open"
+            style="@style/My_CheckBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="开锁" />
+    </RadioGroup>
+
+    <View style="@style/H_Line" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginRight="@dimen/dp15"
+        android:layout_marginBottom="10dp"
+        app:layoutManager="GridLayoutManager"
+        app:spanCount="5" />
+</LinearLayout>

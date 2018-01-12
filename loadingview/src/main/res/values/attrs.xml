@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Dialog">
+        <attr name="DialogTitleAppearance" format="reference" />
+        <attr name="DialogTitleText" format="reference|string" />
+        <attr name="DialogSpotColor" format="reference|color" />
+        <attr name="DialogSpotCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="HiveProgressView">
+        <attr name="hive_animDuration" format="integer" />
+        <attr name="hive_maxAlpha" format="integer" />
+        <attr name="hive_color" format="color" />
+        <attr name="hive_rainbow" format="boolean" />
+        <attr name="hive_cornerRadius" format="integer" />
+        <attr name="hive_shrink" format="boolean" />
+    </declare-styleable>
+</resources>

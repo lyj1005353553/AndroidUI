@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@android:id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_default" />
+
+        <Button
+            android:id="@android:id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_styled" />
+
+        <Button
+            android:id="@android:id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_message" />
+
+        <Button
+            android:id="@android:id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_message_style" />
+
+
+        <com.loadingview.view.overwatchprogress.HiveProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tv_over_progress"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:hive_animDuration="5000"
+            app:hive_color="@color/colorAccent"
+            app:hive_cornerRadius="20"
+            app:hive_maxAlpha="100"
+            app:hive_rainbow="true"
+            app:hive_shrink="true" />
+
+        <TextView
+            android:id="@+id/tv_bd_loading"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="8dp"
+            android:background="@color/grey"
+            android:layout_height="wrap_content"
+            android:text="仿百度加载框"/>
+
+
+        <TextView
+            android:id="@+id/tv_hungry_loading"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey"
+            android:layout_height="wrap_content"
+            android:text="仿饿了吗加载框"/>
+    </LinearLayout>
+</ScrollView>

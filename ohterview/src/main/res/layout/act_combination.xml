@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="输入组合遥控名称"
+        android:textSize="@dimen/dp15"
+        android:padding="10dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_single1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbox_zh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/My_CheckBox"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="组合" />
+
+        <RadioButton
+            android:id="@+id/rbox_ca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/My_CheckBox"
+            android:layout_weight="1"
+            android:text="长按" />
+    </RadioGroup>
+
+    <View style="@style/H_Line" />
+
+    <include layout="@layout/zh_layout" />
+
+    <include
+        layout="@layout/ca_layout"
+        android:visibility="gone" />
+
+    <View style="@style/H_Line" />
+
+    <TextView
+        android:id="@+id/tv_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:text="确定" />
+</LinearLayout>

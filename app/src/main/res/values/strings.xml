@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidUILib</string>
+    <string name="about_toast">Toast</string>
+    <string name="about_dialog">Dialog</string>
+    <string name="about_pmd">跑马灯</string>
+    <string name="about_supports">点赞特效</string>
+    <string name="about_shrink">收缩菜单</string>
+    <string name="about_credit">仿支付宝查看信用值</string>
+    <string name="about_loading">loading</string>
+    <string name="about_indicator">MagicIndicator</string>
+    <string name="about_checkbox">CheckBox</string>
+</resources>
